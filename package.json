@@ -1,14 +1,19 @@
 {
   "name": "ezinit",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "better init git project",
   "bin": {
     "ezinit": "ezinit.sh"
   },
   "keywords": [
-    "ezinit"
+    "ezinit",
+    "git init"
   ],
-  "author": "haril song",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/songkg7/ezinit"
+  },
+  "author": "haril song (https://github.com/songkg7",
   "license": "MIT",
   "dependencies": {
     "commander": "^8.1.0",
