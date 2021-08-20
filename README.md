@@ -1,5 +1,9 @@
 # EZinit
 
+[![GitHub license](https://img.shields.io/github/license/songkg7/ezinit)](https://github.com/songkg7/ezinit/blob/master/LICENSE)
+![npm](https://img.shields.io/npm/v/ezinit)
+![GitHub last commit](https://img.shields.io/github/last-commit/songkg7/ezinit)
+
     git 설정 및 repository 연결을 자동화합니다.
 
 [NPM](https://www.npmjs.com/package/ezinit)
@@ -8,8 +12,7 @@
 
 시작도 전에 벌써 지치지 않나요?
 
-이러한 과정을 자동으로 처리하기 위해 만들었습니다.
-명령어 한 번만 사용하면 git init 및 저장소 생성 및 push 까지 처리합니다.
+이러한 과정을 자동으로 처리하기 위해 만들었습니다. 명령어 한 번만 사용하면 git init 및 저장소 생성 및 push 까지 처리합니다.
 
 ## Install
 
