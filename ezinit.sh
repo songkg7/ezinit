@@ -31,7 +31,7 @@ PROJECT_NAME=${PWD##*/}
 if [ -e "${git_path}" ] && [ -e "${gh_path}" ]; then
   echo "start initialize"
   git init
-  echo "# ${PROJECT_NAME}" >> README.md
+  echo "# ${PROJECT_NAME}" > README.md
   git add README.md
   git commit -m "first commit"
   gh repo create "${PROJECT_NAME}" -y -d "${PROJECT_NAME}"
