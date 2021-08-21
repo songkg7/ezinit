@@ -40,6 +40,7 @@ $ ezinit
 
 - gh 설치 후 로그인 과정 자동 진행
 - 설정 완료 후, 브라우저 창으로 강제 이동 기능 제거
+- add -b option (open browser)
 
 # Next Step
 
