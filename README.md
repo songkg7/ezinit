@@ -4,15 +4,20 @@
 ![npm](https://img.shields.io/npm/v/ezinit)
 ![GitHub last commit](https://img.shields.io/github/last-commit/songkg7/ezinit)
 
-    git 설정 및 repository 연결을 자동화합니다.
+    Automates git initialization and GitHub repository connections.
 
 [NPM](https://www.npmjs.com/package/ezinit)
 
-새로운 프로젝트를 만들 때마다 매번 git 을 초기화하고 github 에서 repository 를 만들고 link 를 복사해서 remote 로 연결하고...
+## English Docs
 
-시작도 전에 벌써 지치지 않나요?
+_Since English is not my first language, please understand that the translation may be wrong._
 
-이 귀찮은 과정을 처리하기 위해 만들었습니다. 명령어 한 번만 사용하면 git init, 저장소 생성 및 push 까지 처리합니다.
+Each time you create a new project, you initialize git, create a repository in github, copy the link, connect it to
+remote...
+
+Aren't you already tired before we start?
+
+I made it to deal with this troublesome process. With only one command, it handles git init, store creation, and push.
 
 ## Install
 
@@ -22,15 +27,22 @@ $ npm install -g ezinit
 
 ## Usage
 
-[GitHub CLI](https://cli.github.com/) 사용을 위해 다음 명령어를 사용하여 로그인합니다. 로그인 방식은 SSH를 권장합니다.
+If the login process proceeds automatically,
+
+but fails with an error, run the following command:
+
+
+[comment]: <> (Log in using the following command to use the [GitHub CLI]&#40;&#40;https://cli.github.com/&#41;&#41;: The login method recommends SSH.)
 
 ```shell
-$ gh auth login
+$ gh auth login  # github cli login
 ```
 
-한 번만 로그인하면 이후 로그인하지 않아도 됩니다.
+reference : [GitHub CLI](https://cli.github.com/)
 
-설치 및 로그인 후 명령어 실행
+Once you log in, you don't have to log in later.
+
+Run command after login.
 
 ```shell
 $ ezinit
@@ -38,20 +50,12 @@ $ ezinit
 
 ## Options
 
+Currently, only one option is available.
+
 ```shell
 $ ezinit [-b || browse]
 ```
 
-초기화 과정 완료시 git repository 새 브라우저 창으로 이동
+Move a new browser upon completion of the process.
 
-## v1.0.3 patch note
-
-- gh 설치 후 로그인 과정 자동 진행
-- 설정 완료 후, 브라우저 창으로 강제 이동 기능 제거
-- add -b option (open browser)
-
-# Next Step
-
-- 현재 Alpha 버전으로 다양한 기능을 추가할 예정
-- 이미 git을 초기화한 상태거나 같은 프로젝트 이름의 repository 가 존재하는 경우 예외 처리
-- add option and flag (ex, --license, --public, --private...)
+Various options will be available later.
