@@ -36,6 +36,14 @@ $ gh auth login
 $ ezinit
 ```
 
+## Options
+
+```shell
+$ ezinit [-b || browse]
+```
+
+초기화 과정 완료시 git repository 새 브라우저 창으로 이동
+
 ## v1.0.3 patch note
 
 - gh 설치 후 로그인 과정 자동 진행
