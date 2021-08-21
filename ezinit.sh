@@ -17,23 +17,26 @@ fi
 
 gh_path=$(which gh)
 if [ -e "${gh_path}" ]; then
-    echo "confirm installation of github cli"
+  echo "confirm installation of github cli"
 else
-  echo "github cli installing.."
+  echo "GitHub CLI installing.."
   brew install gh
+  gh auth login
 fi
 
 # ----------------------
 PROJECT_NAME=${PWD##*/}
+#OPTIONS=[-b]
 
 if [ -e "${git_path}" ] && [ -e "${gh_path}" ]; then
-    echo "start initialize"
-
-    git init
-    echo "# ${PROJECT_NAME}" >> README.md
-    git add README.md
-    git commit -m "first commit"
-    gh repo create "${PROJECT_NAME}" -y -d "${PROJECT_NAME}"
-    git push -u origin master
+  echo "start initialize"
+  git init
+  echo "# ${PROJECT_NAME}" >> README.md
+  git add README.md
+  git commit -m "first commit"
+  gh repo create "${PROJECT_NAME}" -y -d "${PROJECT_NAME}"
+  git push -u origin master
+  if [ "$1" == "-b" ] || [ "$1" == "browse" ]; then
     gh browse
+  fi
 fi

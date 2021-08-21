@@ -36,6 +36,11 @@ $ gh auth login
 $ ezinit
 ```
 
+## v1.0.3 patch note
+
+- gh 설치 후 로그인 과정 자동 진행
+- 설정 완료 후, 브라우저 창으로 강제 이동 기능 제거
+
 # Next Step
 
 - 현재 Alpha 버전으로 다양한 기능을 추가할 예정

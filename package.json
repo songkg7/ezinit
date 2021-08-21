@@ -1,9 +1,12 @@
 {
   "name": "ezinit",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "better init git project",
   "bin": {
     "ezinit": "ezinit.sh"
+  },
+  "scripts": {
+
   },
   "keywords": [
     "ezinit",
