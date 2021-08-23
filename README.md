@@ -35,24 +35,20 @@ $ gh auth login
 로그인 후 명령어 실행
 
 ```shell
-$ ezinit init [-b|--browse]
+$ ezinit [flags] repository-name [description]
 ```
 
-## Options
+## Flags
 
 ```shell
 $ ezinit [-b || browse]
 ```
 초기화 과정 완료시 git repository 새 브라우저 창으로 이동
 
-## v1.0.3 patch note
+## v1.1.0 patch note
 
-- gh 설치 후 로그인 과정 자동 진행
-- 설정 완료 후, 브라우저 창으로 강제 이동 기능 제거
-- add -b option (open browser)
+- 내부 구현 최적화
 
 # Next Step
 
-- 현재 Alpha 버전으로 다양한 기능을 추가할 예정
-- 이미 git을 초기화한 상태거나 같은 프로젝트 이름의 repository 가 존재하는 경우 예외 처리
-- add option and flag (ex, --license, --public, --private...)
+- add flag (ex, --license, --public, --private...)
