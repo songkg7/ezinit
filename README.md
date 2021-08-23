@@ -35,7 +35,7 @@ $ gh auth login
 로그인 후 명령어 실행
 
 ```shell
-$ ezinit
+$ ezinit init [-b|--browse]
 ```
 
 ## Options

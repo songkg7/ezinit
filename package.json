@@ -2,7 +2,6 @@
   "name": "ezinit",
   "version": "1.1.0",
   "description": "better init git project",
-  "main": "./lib/app.js",
   "bin": {
     "ezinit": "bin/ezinit.js"
   },
