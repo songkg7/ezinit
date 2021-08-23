@@ -43,7 +43,7 @@ $ ezinit
 ```shell
 $ ezinit [-b || browse]
 ```
-설정 완료 후 새 브라우저에서 만들어진 깃허브 저장소로 이동합니다.  
+초기화 과정 완료시 git repository 새 브라우저 창으로 이동
 
 ## v1.0.3 patch note
 
