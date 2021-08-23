@@ -4,6 +4,8 @@
 ![npm](https://img.shields.io/npm/v/ezinit)
 ![GitHub last commit](https://img.shields.io/github/last-commit/songkg7/ezinit)
 
+[English](https://github.com/songkg7/ezinit/tree/english)
+
     git 설정 및 repository 연결을 자동화합니다.
 
 [NPM](https://www.npmjs.com/package/ezinit)
@@ -24,13 +26,13 @@ $ npm install -g ezinit
 
 [GitHub CLI](https://cli.github.com/) 사용을 위해 다음 명령어를 사용하여 로그인합니다. 로그인 방식은 SSH를 권장합니다.
 
+이미 로그인하신 적이 있다면 이 과정은 무시하셔도 됩니다.
+
 ```shell
 $ gh auth login
 ```
 
-한 번만 로그인하면 이후 로그인하지 않아도 됩니다.
-
-설치 및 로그인 후 명령어 실행
+로그인 후 명령어 실행
 
 ```shell
 $ ezinit
@@ -41,7 +43,6 @@ $ ezinit
 ```shell
 $ ezinit [-b || browse]
 ```
-
 초기화 과정 완료시 git repository 새 브라우저 창으로 이동
 
 ## v1.0.3 patch note
