@@ -41,7 +41,7 @@ $ ezinit [flags] <repository-name> [description]
 ## Flags
 
 ```shell
-$ ezinit [-b || browse]
+$ ezinit [-b || --browse]
 ```
 초기화 과정 완료시 git repository 새 브라우저 창으로 이동
 
